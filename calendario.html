@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title> GER GARAGE </title>
+    <meta charset="utf-8" />
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+
+	<!----- Scroll top --------->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+
+	<!-----End  Scroll top --------->
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+    <script>
+        var dateToday = new Date();
+        $(function () {
+            $("#calendario").datepicker({
+                showButtonPanel: true,
+                showOn: "button",
+                numberOfMonths: 2,
+                minDate: dateToday,
+
+            });
+            
+        });
+
+        /* $(function DisableSunday(date) {
+             
+             var day = date.getDay();
+            if (day == 0) {
+            
+            return [false] ; 
+            
+            } else { 
+            
+            return [true] ;
+            }
+             
+           });*/
+    </script>
+</head>
+
+<body>
+       
+</body>
+
+</html>
